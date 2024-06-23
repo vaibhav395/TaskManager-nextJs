@@ -4,9 +4,7 @@ import signup1 from "../../assests/signup1.svg"
 import Image from "next/image"
 import { toast } from "react-toastify";
 import AdduserService from "@/services/userService";
-export const metadata = {
-    title: "SignUp : Work-manager"
-}
+
 
 const SignUp = () => {
     const [data, setData] = useState({
