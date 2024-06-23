@@ -5,7 +5,6 @@ import Image from "next/image"
 import { toast } from "react-toastify";
 import AdduserService from "@/services/userService";
 
-
 const SignUp = () => {
     const [data, setData] = useState({
         name: "",
