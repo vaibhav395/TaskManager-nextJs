@@ -4,7 +4,9 @@ import signup1 from "../../assests/signup1.svg"
 import Image from "next/image"
 import { toast } from "react-toastify";
 import AdduserService from "@/services/userService";
-
+export const metadata = {
+    title: 'Signup page',
+  }
 const SignUp = () => {
     const [data, setData] = useState({
         name: "",
